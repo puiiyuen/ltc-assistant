@@ -48,18 +48,25 @@ backend:
 ## Overall
 It is my first full-stack project finished by myself.  Not so bad, but not so good.
 
-I learned these frames by myself in the two months after class. During the learning stage, I read through documentations, checked out a bunch of demo applications and wrote my own codes based on the examples. 
+I learned these frames by myself in the two months after class. During the learning stage, I read through documentations, checked out a bunch of demo applications and wrote my own codes based on the examples. I think I gained a lot during that period: 
+
+- The first time I knew how to build RESTful API with Spring Boot.
+
+- Set up a fancy web dashboard quickly with Vue.js and Bootstrap.
+
+- Built Android and iOS applications at the same time by utilizing Flutter.
 
 With limited understanding of those techniques, I started to build up this application. Luckily, it was done before the due date. However, the drawbacks of developing with limited experience are obviously:
 
-- No Specific Plans  
-  Most of the modules were written without planning in advance. 
+- **No Specific Plans**: Most of the modules were built without planning in advance. Waste a lot of time on considering what to do and how to do when programming. 
 
-- No Standardized Documentations
+- **No Standardized Documentations**: APIs were formed in a messy format and undocumented. It's not friendly for frontend development when invoking APIs. 
   
-- Unprofessional Usages
+- **Unprofessional Solution**: Some features were implemented without in-deep consideration. Used `session` to manage user authentication and authorization. Once the server crashes, or if the application is deployed on a cluster, user cannot access the services properly.
 
-- Redundant Codes
+- **Redundant Codes**: Some components were developed repeatedly. 
+
+Although the project was done, I still keep learning and keep fixing up those cons as well. Mastering a skill from 0 to 1 is easy, but how to enlarge 1 to 10, 100, 1000... is my next step:)
 
 ## Repositories
 - [Web ↗️](https://github.com/puiiyuen/ltc-assistant-frontend)

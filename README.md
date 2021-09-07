@@ -11,9 +11,9 @@ A resident management system built with [Vue.js](https://vuejs.org), [Flutter](h
   - [Web](#web)
   - [Backend](#backend)
   - [Mobile](#mobile)
-- [Overall](#overall)
 - [Live Demo](#live-demo)
 - [Repositories](#repositories)
+- <!-- - [Overall](#overall) -->
 
 ## Architectures
 ![](https://mermaid.ink/img/eyJjb2RlIjoiZ3JhcGggTFJcbiAgICBBW0Jyb3dzZXIvaU9TL0FuZHJvaWRdIC0tPnxTZW5kIFJlcXVlc3R8IEJbV2ViIFNlcnZlcl1cbiAgICBCIC0tPiB8UXVlcnl8IENbRGF0YWJhc2VdXG4gICAgQyAtLT58UmV0dXJuIERhdGF8IEJcbiAgICBCIC0tPnxSZXNwb25zZXwgQSIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In0sInVwZGF0ZUVkaXRvciI6dHJ1ZSwiYXV0b1N5bmMiOnRydWUsInVwZGF0ZURpYWdyYW0iOnRydWV9)
@@ -66,7 +66,7 @@ Below is an screenshot of sending SOS to the Security Alert Center:
 
 *<div align="center">e.g. SOS</div>*
 
-## Overall
+<!-- ## Overall
 It is my first full-stack project finished by myself.  Not so bad, but not so good.
 
 I learned these frames by myself in the two months after class. During the learning stage, I read through documentations, checked out a bunch of demo applications and wrote my own codes based on the examples. I think I gained a lot during that period: 
@@ -88,7 +88,7 @@ With limited understanding of those techniques, I started to build up this appli
 - **Redundant Codes**: Some components were developed repeatedly. 
 
 Although the project was done, I still keep learning and keep fixing up those cons as well. Mastering a skill from 0 to 1 is easy, but how to enlarge 1 to 10, 100, 1000... is my next step:)
-
+ -->
 ## Live Demo
 https://demo.peiyuan.ch/
 

@@ -13,7 +13,7 @@ A resident management system built with [Vue.js](https://vuejs.org), [Flutter](h
   - [Mobile](#mobile)
 - [Live Demo](#live-demo)
 - [Repositories](#repositories)
-- <!-- - [Overall](#overall) -->
+<!-- - [Overall](#overall) -->
 
 ## Architectures
 ![](https://mermaid.ink/img/eyJjb2RlIjoiZ3JhcGggTFJcbiAgICBBW0Jyb3dzZXIvaU9TL0FuZHJvaWRdIC0tPnxTZW5kIFJlcXVlc3R8IEJbV2ViIFNlcnZlcl1cbiAgICBCIC0tPiB8UXVlcnl8IENbRGF0YWJhc2VdXG4gICAgQyAtLT58UmV0dXJuIERhdGF8IEJcbiAgICBCIC0tPnxSZXNwb25zZXwgQSIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In0sInVwZGF0ZUVkaXRvciI6dHJ1ZSwiYXV0b1N5bmMiOnRydWUsInVwZGF0ZURpYWdyYW0iOnRydWV9)

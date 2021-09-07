@@ -35,7 +35,7 @@ backend:
 ```
 
 ### Web
-It is a dashboard view for staff to manage all information. I used Vue.js to build a single-page application. Vue-router was imported to manage page routing. All static resources were hosted on the Nginx server. The application will initiate async requests to fetch data from the backend server on demand.
+It is a dashboard view for staff to manage all information. I use Vue.js to build a single-page application. Vue-router is imported to manage page routing. All static resources are hosted on the Nginx server. The application will initiate async requests to fetch data from the backend server on demand.
 
 Below is an example of "Security Alert Center":
 
@@ -56,7 +56,15 @@ Below is a sequence diagram of request process:
 *<div align="center">General Sequence Diagram</div>*
 
 ### Mobile
-> TODO
+Some features on the project proposal are required to run on the native platform. Compare to React Native, Weex and Flutter, Flutter is the best choice for me. 
+
+The mobile application is for the residents at the long-term care center. The residents can use the app to receive announcements, medical reports, SOS, etc.
+
+Below is an screenshot of sending SOS to the Security Alert Center:
+
+![](img/sos.jpg)
+
+*<div align="center">e.g. SOS</div>*
 
 ## Overall
 It is my first full-stack project finished by myself.  Not so bad, but not so good.

@@ -12,6 +12,7 @@ A resident management system built with [Vue.js](https://vuejs.org), [Flutter](h
   - [Backend](#backend)
   - [Mobile](#mobile)
 - [Overall](#overall)
+- [Live Demo](#live-demo)
 - [Repositories](#repositories)
 
 ## Architectures
@@ -34,13 +35,23 @@ backend:
 ```
 
 ### Web
-> TODO
+It is a dashboard view for staff to manage all information. I used Vue.js to build a single-page application. Vue-router was imported to manage page routing. All static resources were hosted on the Nginx server. The application will initiate async requests to fetch data from the backend server on demand.
+
+Below is an example of "Security Alert Center":
+
+![Security Center Dashboard](img/dashboard-view.png)
+*<div align="center">e.g. Security Alert Center Dashboard</div>*
+
+![Event Detail](img/security-detail.png)
+*<div align="center">e.g. Detail</div>*
+
 
 ### Backend
 > TODO
 
-#### General Sequence Diagram: 
-![](https://mermaid.ink/img/eyJjb2RlIjoic2VxdWVuY2VEaWFncmFtXG4gICAgVXNlci0-PitDb250cm9sbGVyOiBSZXF1ZXN0XG4gICAgQ29udHJvbGxlci0-PkNvbnRyb2xsZXI6IEF1dGhlbnRpY2F0aW9uIHdpdGggc2Vzc2lvblxuICAgIENvbnRyb2xsZXItLT4-VXNlcjogQXV0aGVudGljYXRpb24gRmFpbGVkXG4gICAgQ29udHJvbGxlci0-PitTZXJ2aWNlOiBBdXRoZW50aWNhdGlvbiB3aXRoIFVzZXIgY3JlZGVudGlhbHNcbiAgICBTZXJ2aWNlLT4-K0RhdGEgQWNjZXNzIE9iamVjdDogQXV0aGVudGljYXRpb24gU2VydmljZVxuICAgIERhdGEgQWNjZXNzIE9iamVjdC0-PitEYXRhYmFzZTogUXVlcnlcbiAgICBEYXRhYmFzZS0tPj5EYXRhIEFjY2VzcyBPYmplY3Q6ICBSZXR1cm4gUXVlcnkgUmVzdWx0XG4gICAgRGF0YSBBY2Nlc3MgT2JqZWN0LS0-PlNlcnZpY2U6IFJldHVybiBEQU9cbiAgICBTZXJ2aWNlLS0-PkNvbnRyb2xsZXI6IFZlcmlmeSBBdXRoZW50aWNhdGlvblxuICAgIENvbnRyb2xsZXItLT4-VXNlcjogQXV0aGVudGljYXRpb24gRmFpbGVkXG4gICAgQ29udHJvbGxlci0-PkNvbnRyb2xsZXI6IEF1dGhlbnRpY2F0aW9uIFBhc3NcbiAgICBDb250cm9sbGVyLT4-U2VydmljZTogQ29udGludWUgUmVxdWVzdFxuICAgIFNlcnZpY2UtPj5EYXRhIEFjY2VzcyBPYmplY3Q6IFJlcXVlc3QgREFPXG4gICAgRGF0YSBBY2Nlc3MgT2JqZWN0LT4-RGF0YWJhc2U6IFF1ZXJ5XG4gICAgRGF0YWJhc2UtLT4-LURhdGEgQWNjZXNzIE9iamVjdDogUmV0dXJuIFF1ZXJ5IFJlc3VsdFxuICAgIERhdGEgQWNjZXNzIE9iamVjdC0tPj4tU2VydmljZTogUmV0dXJuIERBT1xuICAgIFNlcnZpY2UtLT4-LUNvbnRyb2xsZXI6IEFzc2VtYmxlIEpTT05cbiAgICBDb250cm9sbGVyLS0-Pi1Vc2VyOiBSZWNlaXZlIERhdGFcbiAgICAgICAgICAgICIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In0sInVwZGF0ZUVkaXRvciI6ZmFsc2UsImF1dG9TeW5jIjp0cnVlLCJ1cGRhdGVEaWFncmFtIjpmYWxzZX0)
+![General Sequence Diagram](https://mermaid.ink/img/eyJjb2RlIjoic2VxdWVuY2VEaWFncmFtXG4gICAgVXNlci0-PitDb250cm9sbGVyOiBSZXF1ZXN0XG4gICAgQ29udHJvbGxlci0-PkNvbnRyb2xsZXI6IEF1dGhlbnRpY2F0aW9uIHdpdGggc2Vzc2lvblxuICAgIENvbnRyb2xsZXItLT4-VXNlcjogQXV0aGVudGljYXRpb24gRmFpbGVkXG4gICAgQ29udHJvbGxlci0-PitTZXJ2aWNlOiBBdXRoZW50aWNhdGlvbiB3aXRoIFVzZXIgY3JlZGVudGlhbHNcbiAgICBTZXJ2aWNlLT4-K0RhdGEgQWNjZXNzIE9iamVjdDogQXV0aGVudGljYXRpb24gU2VydmljZVxuICAgIERhdGEgQWNjZXNzIE9iamVjdC0-PitEYXRhYmFzZTogUXVlcnlcbiAgICBEYXRhYmFzZS0tPj5EYXRhIEFjY2VzcyBPYmplY3Q6ICBSZXR1cm4gUXVlcnkgUmVzdWx0XG4gICAgRGF0YSBBY2Nlc3MgT2JqZWN0LS0-PlNlcnZpY2U6IFJldHVybiBEQU9cbiAgICBTZXJ2aWNlLS0-PkNvbnRyb2xsZXI6IFZlcmlmeSBBdXRoZW50aWNhdGlvblxuICAgIENvbnRyb2xsZXItLT4-VXNlcjogQXV0aGVudGljYXRpb24gRmFpbGVkXG4gICAgQ29udHJvbGxlci0-PkNvbnRyb2xsZXI6IEF1dGhlbnRpY2F0aW9uIFBhc3NcbiAgICBDb250cm9sbGVyLT4-U2VydmljZTogQ29udGludWUgUmVxdWVzdFxuICAgIFNlcnZpY2UtPj5EYXRhIEFjY2VzcyBPYmplY3Q6IFJlcXVlc3QgREFPXG4gICAgRGF0YSBBY2Nlc3MgT2JqZWN0LT4-RGF0YWJhc2U6IFF1ZXJ5XG4gICAgRGF0YWJhc2UtLT4-LURhdGEgQWNjZXNzIE9iamVjdDogUmV0dXJuIFF1ZXJ5IFJlc3VsdFxuICAgIERhdGEgQWNjZXNzIE9iamVjdC0tPj4tU2VydmljZTogUmV0dXJuIERBT1xuICAgIFNlcnZpY2UtLT4-LUNvbnRyb2xsZXI6IEFzc2VtYmxlIEpTT05cbiAgICBDb250cm9sbGVyLS0-Pi1Vc2VyOiBSZWNlaXZlIERhdGFcbiAgICAgICAgICAgICIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In0sInVwZGF0ZUVkaXRvciI6ZmFsc2UsImF1dG9TeW5jIjp0cnVlLCJ1cGRhdGVEaWFncmFtIjpmYWxzZX0)
+
+*<div align="center">General Sequence Diagram</div>*
 
 ### Mobile
 > TODO
@@ -67,6 +78,9 @@ With limited understanding of those techniques, I started to build up this appli
 - **Redundant Codes**: Some components were developed repeatedly. 
 
 Although the project was done, I still keep learning and keep fixing up those cons as well. Mastering a skill from 0 to 1 is easy, but how to enlarge 1 to 10, 100, 1000... is my next step:)
+
+## Live Demo
+https://demo.peiyuan.ch/
 
 ## Repositories
 - [Web ↗️](https://github.com/puiiyuen/ltc-assistant-frontend)

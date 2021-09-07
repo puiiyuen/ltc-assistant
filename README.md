@@ -7,28 +7,68 @@ A resident management system built with [Vue.js](https://vuejs.org), [Flutter](h
 
 ## Table of Content
 - [Briefing](#briefing)
-- [Repositories](#repositories)
-- [Detailed Design](#detailed-design)
+- [Architectures](#architectures)
   - [Web](#web)
   - [Backend](#backend)
   - [Mobile](#mobile)
+- [Overall](#overall)
+- [Repositories](#repositories)
 
-## Repositories
-- [Web↗️](https://github.com/puiiyuen/ltc-assistant-frontend)
-- [Backend↗️](https://github.com/puiiyuen/ltc-assistant-backend)
-- [Mobile↗️](https://github.com/puiiyuen/ltc-assistant-mobile)
+## Architectures
+![](https://mermaid.ink/img/eyJjb2RlIjoiZ3JhcGggTFJcbiAgICBBW0Jyb3dzZXIvaU9TL0FuZHJvaWRdIC0tPnxTZW5kIFJlcXVlc3R8IEJbV2ViIFNlcnZlcl1cbiAgICBCIC0tPiB8UXVlcnl8IENbRGF0YWJhc2VdXG4gICAgQyAtLT58UmV0dXJuIERhdGF8IEJcbiAgICBCIC0tPnxSZXNwb25zZXwgQSIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In0sInVwZGF0ZUVkaXRvciI6dHJ1ZSwiYXV0b1N5bmMiOnRydWUsInVwZGF0ZURpYWdyYW0iOnRydWV9)
 
-## Detailed Design
-
-<!-- *Tools, Frameworks, Dependencies:*
+*Tools, Frameworks, Dependencies:*
 ```yml
-
-``` -->
+web: 
+ - Vue.js:
+     Vue-core
+     Vue-router
+     Vuex
+ - Bootstrap
+mobile:
+ - Flutter
+backend:
+ - Spring Boot
+ - MyBatis
+ - MySQL
+```
 
 ### Web
-
+> TODO
 
 ### Backend
+> TODO
 
+#### General Sequence Diagram: 
+![](https://mermaid.ink/img/eyJjb2RlIjoic2VxdWVuY2VEaWFncmFtXG4gICAgVXNlci0-PitDb250cm9sbGVyOiBSZXF1ZXN0XG4gICAgQ29udHJvbGxlci0-PkNvbnRyb2xsZXI6IEF1dGhlbnRpY2F0aW9uIHdpdGggc2Vzc2lvblxuICAgIENvbnRyb2xsZXItLT4-VXNlcjogQXV0aGVudGljYXRpb24gRmFpbGVkXG4gICAgQ29udHJvbGxlci0-PitTZXJ2aWNlOiBBdXRoZW50aWNhdGlvbiB3aXRoIFVzZXIgY3JlZGVudGlhbHNcbiAgICBTZXJ2aWNlLT4-K0RhdGEgQWNjZXNzIE9iamVjdDogQXV0aGVudGljYXRpb24gU2VydmljZVxuICAgIERhdGEgQWNjZXNzIE9iamVjdC0-PitEYXRhYmFzZTogUXVlcnlcbiAgICBEYXRhYmFzZS0tPj5EYXRhIEFjY2VzcyBPYmplY3Q6ICBSZXR1cm4gUXVlcnkgUmVzdWx0XG4gICAgRGF0YSBBY2Nlc3MgT2JqZWN0LS0-PlNlcnZpY2U6IFJldHVybiBEQU9cbiAgICBTZXJ2aWNlLS0-PkNvbnRyb2xsZXI6IFZlcmlmeSBBdXRoZW50aWNhdGlvblxuICAgIENvbnRyb2xsZXItLT4-VXNlcjogQXV0aGVudGljYXRpb24gRmFpbGVkXG4gICAgQ29udHJvbGxlci0-PkNvbnRyb2xsZXI6IEF1dGhlbnRpY2F0aW9uIFBhc3NcbiAgICBDb250cm9sbGVyLT4-U2VydmljZTogQ29udGludWUgUmVxdWVzdFxuICAgIFNlcnZpY2UtPj5EYXRhIEFjY2VzcyBPYmplY3Q6IFJlcXVlc3QgREFPXG4gICAgRGF0YSBBY2Nlc3MgT2JqZWN0LT4-RGF0YWJhc2U6IFF1ZXJ5XG4gICAgRGF0YWJhc2UtLT4-LURhdGEgQWNjZXNzIE9iamVjdDogUmV0dXJuIFF1ZXJ5IFJlc3VsdFxuICAgIERhdGEgQWNjZXNzIE9iamVjdC0tPj4tU2VydmljZTogUmV0dXJuIERBT1xuICAgIFNlcnZpY2UtLT4-LUNvbnRyb2xsZXI6IEFzc2VtYmxlIEpTT05cbiAgICBDb250cm9sbGVyLS0-Pi1Vc2VyOiBSZWNlaXZlIERhdGFcbiAgICAgICAgICAgICIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In0sInVwZGF0ZUVkaXRvciI6ZmFsc2UsImF1dG9TeW5jIjp0cnVlLCJ1cGRhdGVEaWFncmFtIjpmYWxzZX0)
 
 ### Mobile
+> TODO
+
+## Overall
+It is my first full-stack project finished by myself.  Not so bad, but not so good.
+
+I learned these frames by myself in the two months after class. During the learning stage, I read through documentations, checked out a bunch of demo applications and wrote my own codes based on the examples. I think I gained a lot during that period: 
+
+- The first time I knew how to build RESTful API with Spring Boot.
+
+- Set up a fancy web dashboard quickly with Vue.js and Bootstrap.
+
+- Built Android and iOS applications at the same time by utilizing Flutter.
+
+With limited understanding of those techniques, I started to build up this application. Luckily, it was done before the due date. However, the drawbacks of developing with limited experience are obviously:
+
+- **No Specific Plans**: Most of the modules were built without planning in advance. Waste a lot of time on considering what to do and how to do when programming. 
+
+- **No Standardized Documentations**: APIs were formed in a messy format and undocumented. It's not friendly for frontend development when invoking APIs. 
+  
+- **Unprofessional Solution**: Some features were implemented without in-deep consideration. Used `session` to manage user authentication and authorization. Once the server crashes, or if the application is deployed on a cluster, user cannot access the services properly.
+
+- **Redundant Codes**: Some components were developed repeatedly. 
+
+Although the project was done, I still keep learning and keep fixing up those cons as well. Mastering a skill from 0 to 1 is easy, but how to enlarge 1 to 10, 100, 1000... is my next step:)
+
+## Repositories
+- [Web ↗️](https://github.com/puiiyuen/ltc-assistant-frontend)
+- [Backend ↗️](https://github.com/puiiyuen/ltc-assistant-backend)
+- [Mobile ↗️](https://github.com/puiiyuen/ltc-assistant-mobile)
